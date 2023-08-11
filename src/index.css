@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Utilities*/
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/*width and height*/
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+/*width and height*/
+
+/*display*/
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+/*display*/
+
+/*colors*/
+
+.text-white {
+  color: white;
+}
+
+/*colors*/
+
+/*Utilities*/
+
+/*start basket*/
+
+.basket {
+  height: 100px;
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  /* font-size: 40px; */
+  cursor: pointer;
+}
+
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: red;
+}
+
+
+
+.bag {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  /* font-size: 40px; */
+  cursor: pointer;
+  z-index: 1;
+}
+
+.bag:hover {
+  color: red;
+}
+
+.x {
+  display: none;
+}
+
+.about-me {
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  position: absolute;
+  right: 40%;
+}
+
+
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/*end beskst*/
+
+/*start pay*/
+
+.pay{
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  position: fixed;
+  right: 99px;
+  /* display: none; */
+}
+
+/*end pay*/
+
+/*start sizes*/
+
+.size {
+  height: 100px;
+  padding-top: 20px;
+}
+
+.sizess {
+  height: 45px;
+  width: 45px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sizees {
+  margin-top: 10px;
+}
+
+/*end sizes*/
+
+/*Products start*/
+
+.products {
+  height: 2315px;
+}
+
+.product {
+  width: 270px;
+}
+
+.produ-img {
+  margin-top: 5px;
+}
+/* .prudc-inf {
+  border: 1px solid black;
+} */
+.add {
+  width: 270px;
+  height: 50px;
+  color: whitesmoke;
+  background-color: black;
+  padding: 5px 13px;
+  margin-top: 5px;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.siz {
+  width: 270px;
+  height: 400px;
+}
